@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(Raleway-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*header*/
+
+nav{
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
+}
+
+.navimg, img {
+    grid-area: logo;
+    height: 3rem;
+    padding: 0 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ li {
+    margin: 0px 10px 0px 20px;
+    height: 20px;
+}
+
+.heber {
+    color: #0065FC;
+    border-top: 2px solid;
+}
+
+
+.inscr {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.act {
+    color: #101010;
+}
+
+
+
+
+/*formulaire*/
+/*filtre*/
+
+.filter {
+    display: flex;
+    align-items: flex-start;
+}
+
+.filter p {
+    padding: 0px 10px 0px 10px;
+}
+
+/* section img */
+
+.sectionimg{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: ;
+}
+
+/*aside img */
